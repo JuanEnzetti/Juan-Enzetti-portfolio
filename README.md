@@ -8,7 +8,7 @@ Portafolio personal construido con **HTML, CSS y JavaScript puro**, sin framewor
 
 ## Demo en vivo
 
-🌐 **Próximamente en Vercel** — _reemplazá este texto por la URL cuando esté publicado._
+🌐 **[juan-enzetti-portfolio.vercel.app](https://juan-enzetti-portfolio.vercel.app)**
 
 ---
 
@@ -51,7 +51,7 @@ Portafolio personal construido con **HTML, CSS y JavaScript puro**, sin framewor
 | 01 | Sobre mí | Recorrido profesional y enfoque de trabajo |
 | 02 | Skills | 8 categorías: Testing, Automatización, IA aplicada a QA, APIs y datos, Lenguajes, CI/CD, Gestión y Dominio |
 | 03 | Experiencia | CFOTech (Telecom), Global66 y QActions Group (Banco Patagonia) |
-| 04 | Proyectos | Demo-Playwright, Pronóstico, framework UI + API y 3 casos de estudio |
+| 04 | Proyectos | Demo-Playwright, Pronóstico, framework UI + API, este portafolio y 3 casos de estudio |
 | 05 | Formación | Títulos y certificaciones en una grilla unificada |
 | 06 | Contacto | Email (con botón copiar), LinkedIn, GitHub y CV |
 
