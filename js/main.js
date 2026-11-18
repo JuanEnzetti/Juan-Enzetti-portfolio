@@ -238,7 +238,11 @@
               <p>${r.text}</p>
               ${chips(r.stack, "chips-sm")}
               <div class="repo-links">
-                ${r.demo ? `<a class="text-link" href="${r.demo}" target="_blank" rel="noopener">${icon("globe")} ${t.ui.viewDemo} ${icon("external", "icon-sm")}</a>` : ""}
+                ${r.demo
+                  ? r.demo.startsWith("#")
+                    ? `<a class="text-link" href="${r.demo}">${icon("globe")} ${t.ui.viewDemo} ${icon("arrowUp", "icon-sm")}</a>` // demo interna: misma pestaña
+                    : `<a class="text-link" href="${r.demo}" target="_blank" rel="noopener">${icon("globe")} ${t.ui.viewDemo} ${icon("external", "icon-sm")}</a>`
+                  : ""}
                 <a class="text-link" href="${r.repo}" target="_blank" rel="noopener">${icon("github")} ${t.ui.viewRepo} ${icon("external", "icon-sm")}</a>
               </div>
             </article>`

@@ -265,9 +265,9 @@ const CONTENT = {
           text: "Page Object Model, tests data-driven desde JSON, ejecución en paralelo con pytest-xdist, reintentos, reporte HTML y capturas en cada fallo. Cubre UI en SauceDemo y API REST en Reqres.",
         },
         {
-          title: "Este portafolio — Sitio personal de QA",
+          title: "Juan Enzetti Portfolio",
           repo: "https://github.com/JuanEnzetti/Juan-Enzetti-portfolio",
-          demo: "https://juan-enzetti-portfolio.vercel.app",
+          demo: "#top", // enlace interno: lleva al inicio de esta misma página
           stack: ["HTML", "CSS", "JavaScript", "Git", "GitHub", "Vercel"],
           text: "Sitio estático bilingüe (ES/EN) con modo claro/oscuro, diseño responsive y todo el contenido centralizado en un único archivo de datos. Sin frameworks ni build, accesible (foco visible, ARIA, movimiento reducido) y probado en mobile, tablet y desktop.",
         },
@@ -583,9 +583,9 @@ const CONTENT = {
           text: "Page Object Model, data-driven tests from JSON, parallel runs with pytest-xdist, retries, HTML report and screenshots on every failure. Covers UI on SauceDemo and a REST API on Reqres.",
         },
         {
-          title: "This portfolio — Personal QA website",
+          title: "Juan Enzetti Portfolio",
           repo: "https://github.com/JuanEnzetti/Juan-Enzetti-portfolio",
-          demo: "https://juan-enzetti-portfolio.vercel.app",
+          demo: "#top", // enlace interno: lleva al inicio de esta misma página
           stack: ["HTML", "CSS", "JavaScript", "Git", "GitHub", "Vercel"],
           text: "Bilingual (ES/EN) static site with light/dark mode, responsive design and all content centralized in a single data file. No frameworks or build step, accessible (visible focus, ARIA, reduced motion) and tested on mobile, tablet and desktop.",
         },
