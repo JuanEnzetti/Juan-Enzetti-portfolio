@@ -1,0 +1,11 @@
+# Configuración local de Claude Code (no forma parte del sitio)
+.claude/
+
+# Sistema operativo / editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Vercel
+.vercel
