@@ -331,7 +331,8 @@ img, svg { display: block; }
 .repo-card p { color: var(--text-muted); }
 .repo-links { display: flex; flex-wrap: wrap; gap: 8px 20px; margin-top: auto; }
 
-.cases-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; }
+/* 4 casos de estudio: grilla 2×2 para que no quede una tarjeta suelta */
+.cases-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
 .case-card { padding: 24px; }
 .case-tag { font: 500 12px var(--font-mono); color: var(--blue); }
 .case-card h4 { margin-top: 8px; font-size: 1.1rem; }
@@ -462,7 +463,7 @@ img, svg { display: block; }
   .contact-box { padding: 28px 20px; }
   .email-row .btn { flex: 1 1 auto; }
   .email-row .btn-primary { word-break: break-all; }
-  .contact-grid, .cred-grid { grid-template-columns: 1fr; }
+  .contact-grid, .cred-grid, .cases-grid { grid-template-columns: 1fr; }
   .cred-card:last-child:nth-child(odd) { grid-column: auto; }
 }
 

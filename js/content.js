@@ -76,7 +76,7 @@ const CONTENT = {
       title: "Calidad como parte del producto, no como etapa final",
       paragraphs: [
         "Mi trabajo es encontrar lo que puede salir mal antes de que le pase a un usuario. Empecé en <strong>banca core</strong>, probando Bantotal y AS/400 para Banco Patagonia. Ahí aprendí que un error en una regla de negocio cuesta dinero real.",
-        "En <strong>Global66</strong>, una fintech de remesas que opera en varios países, cada país tenía sus propias reglas. Trabajé con Legales, Finanzas, bancos y empresas de pagos transfronterizos en proyectos regulatorios como PSP y Split Onboarding, y automaticé regresiones con Python y Selenium antes de cada salida a producción.",
+        "En <strong>Global66</strong>, una fintech de remesas que opera en varios países, cada país tenía sus propias reglas. Participé en el proyecto PSP, con el que la empresa se regularizó en Argentina y lanzó su billetera virtual con CVU y alias, y en Split Onboarding, que simplificó el registro para que más personas pudieran empezar a usar la app. También automaticé regresiones con Python y Selenium antes de cada salida a producción.",
         "Hoy soy <strong>Senior QA Analyst</strong> en el proyecto Salesforce B2B de Telecom (Personal). Impulsé que el equipo de QA trabaje con agentes de IA en Jira para generar casos de prueba, redactar bugs, documentar y analizar logs. Hoy lo usa todo el equipo.",
         "Arranqué como tester manual, y ese ojo crítico es lo que hace que la automatización y la IA funcionen. Busco crecer como <strong>QA Automation Engineer</strong> en un equipo que vea la calidad como parte del producto.",
       ],
@@ -197,7 +197,7 @@ const CONTENT = {
           bullets: [
             ["Automatización", "desarrollé y mantuve flujos de regresión E2E con Python y Selenium, que corrían antes de cada release."],
             ["Testing funcional y exploratorio", "probé flujos transaccionales críticos de envío de dinero en web y mobile."],
-            ["Proyectos regulatorios", "participé en el proyecto PSP con Legales, Finanzas, Banco Comafi y el BCRA, y en el Split Onboarding, validando documentación de usuarios extranjeros según las reglas de cada país."],
+            ["Proyectos regulatorios y de producto", "participé en el proyecto PSP, junto a Legales, Finanzas y Banco Comafi bajo las regulaciones del BCRA, y en Split Onboarding, revisando con Legales lo que exigía cada país."],
             ["Performance", "ejecuté pruebas de carga y estrés con JMeter."],
             ["APIs y datos", "validé microservicios REST con Postman y datos con SQL."],
             ["Cloud y CI/CD", "analicé logs en AWS CloudWatch, integré pruebas en AWS CodePipeline y desplegué entornos con CloudFormation."],
@@ -214,7 +214,7 @@ const CONTENT = {
           location: "Buenos Aires, Argentina",
           summary:
             "Validación de procesos de banca core en Bantotal, con foco en reglas de negocio e integraciones entre módulos.",
-          highlight: "Experiencia en Bantotal, uno de los core bancarios más usados en Latinoamérica.",
+          highlight: "Testing funcional de sistemas core bancarios con Bantotal y AS/400.",
           bullets: [
             ["Banca core", "validé procesos en Bantotal, con foco en reglas de negocio e integraciones entre módulos."],
             ["Datos y APIs", "consulté y verifiqué datos en AS/400 y con SQL, y probé servicios REST con Postman."],
@@ -291,10 +291,17 @@ const CONTENT = {
         },
         {
           tag: "Fintech · Regulatorio",
-          title: "PSP y Split Onboarding",
-          context: "Proyectos con Legales, Finanzas, Banco Comafi y el BCRA para operar como PSP en Argentina.",
-          approach: "Validé la documentación de usuarios extranjeros según las reglas de cada país y los flujos de onboarding.",
-          outcome: "Cobertura de QA sobre requisitos regulatorios en un contexto multi-país.",
+          title: "PSP: billetera virtual con CVU y alias",
+          context: "Global66 necesitaba regularizarse en Argentina. Hasta entonces, una transferencia tardaba un día en acreditarse.",
+          approach: "Trabajé junto a Legales, Finanzas y Banco Comafi, el proveedor del CVU, validando la nueva billetera virtual con CVU y alias según las regulaciones del BCRA y adaptándonos a cada cambio.",
+          outcome: "Global66 quedó regularizada como PSP y los envíos pasaron de tardar un día a ser instantáneos.",
+        },
+        {
+          tag: "Fintech · Producto",
+          title: "Split Onboarding",
+          context: "El 70% de quienes descargaban Global66 no terminaba el onboarding porque les resultaba largo.",
+          approach: "Validé un registro en pocos pasos (nombre, apellido, fecha de nacimiento y DNI) que habilitaba un uso limitado de la cuenta; al superar el límite de tiempo o de dinero se pedía el onboarding completo. Con Legales revisamos lo que exigía la regulación de cada país.",
+          outcome: "Más personas pudieron empezar a usar Global66 sin quedarse trabadas en el registro.",
         },
       ],
     },
@@ -394,7 +401,7 @@ const CONTENT = {
       title: "Quality as part of the product, not a final stage",
       paragraphs: [
         "My job is to find what can go wrong before it happens to a user. I started in <strong>core banking</strong>, testing Bantotal and AS/400 for Banco Patagonia. That's where I learned that a bug in a business rule costs real money.",
-        "At <strong>Global66</strong>, a remittance fintech operating across several countries, each country had its own rules. I worked with Legal, Finance, banks and cross-border payment companies on regulatory projects such as PSP and Split Onboarding, and automated regression suites with Python and Selenium before every production release.",
+        "At <strong>Global66</strong>, a remittance fintech operating across several countries, each country had its own rules. I worked on the PSP project, which got the company licensed in Argentina and launched its digital wallet with a CVU and alias, and on Split Onboarding, which simplified sign-up so more people could start using the app. I also automated regression suites with Python and Selenium before every production release.",
         "Today I'm a <strong>Senior QA Analyst</strong> on Telecom's (Personal) Salesforce B2B project. I drove the QA team's adoption of AI agents in Jira to generate test cases, write bug reports, document and analyze logs. The whole team uses it now.",
         "I started as a manual tester, and that critical eye is what makes automation and AI actually work. I'm looking to grow as a <strong>QA Automation Engineer</strong> in a team that sees quality as part of the product.",
       ],
@@ -515,7 +522,7 @@ const CONTENT = {
           bullets: [
             ["Automation", "built and maintained E2E regression flows with Python and Selenium that ran before every release."],
             ["Functional & exploratory testing", "tested critical money-transfer flows on web and mobile."],
-            ["Regulatory projects", "took part in the PSP project with Legal, Finance, Banco Comafi and the Central Bank (BCRA), and in Split Onboarding, validating foreign users' documentation against each country's rules."],
+            ["Regulatory & product projects", "took part in the PSP project, alongside Legal, Finance and Banco Comafi under the Central Bank (BCRA) regulations, and in Split Onboarding, reviewing each country's requirements with Legal."],
             ["Performance", "ran load and stress tests with JMeter."],
             ["APIs & data", "validated REST microservices with Postman and data with SQL."],
             ["Cloud & CI/CD", "analyzed logs in AWS CloudWatch, integrated tests into AWS CodePipeline and deployed environments with CloudFormation."],
@@ -532,7 +539,7 @@ const CONTENT = {
           location: "Buenos Aires, Argentina",
           summary:
             "Validation of core banking processes in Bantotal, focused on business rules and integrations between modules.",
-          highlight: "Hands-on experience with Bantotal, one of the most widely used core banking platforms in Latin America.",
+          highlight: "Functional testing of core banking systems with Bantotal and AS/400.",
           bullets: [
             ["Core banking", "validated processes in Bantotal, focusing on business rules and module integrations."],
             ["Data & APIs", "queried and verified data in AS/400 and with SQL, and tested REST services with Postman."],
@@ -609,10 +616,17 @@ const CONTENT = {
         },
         {
           tag: "Fintech · Regulatory",
-          title: "PSP & Split Onboarding",
-          context: "Projects with Legal, Finance, Banco Comafi and the Central Bank (BCRA) to operate as a PSP in Argentina.",
-          approach: "Validated foreign users' documentation against each country's rules, along with the onboarding flows.",
-          outcome: "QA coverage of regulatory requirements in a multi-country context.",
+          title: "PSP: digital wallet with CVU and alias",
+          context: "Global66 needed to become a licensed payment provider in Argentina. Until then, a transfer took a full day to arrive.",
+          approach: "I worked alongside Legal, Finance and Banco Comafi, the CVU provider, validating the new digital wallet with CVU and alias against the Central Bank (BCRA) regulations and adapting to every change.",
+          outcome: "Global66 became a licensed PSP and transfers went from taking a day to being instant.",
+        },
+        {
+          tag: "Fintech · Product",
+          title: "Split Onboarding",
+          context: "70% of the people who downloaded Global66 never finished onboarding because it felt too long.",
+          approach: "I validated a short sign-up (first name, last name, date of birth and ID number) that unlocked limited use of the account; once users passed the time or money limit, they were asked to complete full onboarding. With Legal, we reviewed what each country's regulations required.",
+          outcome: "More people could start using Global66 without getting stuck at sign-up.",
         },
       ],
     },
